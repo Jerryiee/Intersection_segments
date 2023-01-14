@@ -19,12 +19,6 @@ def intersection(line1, line2):
     else:
         return (xi, yi)
 
-import cv2
-
-import cv2
-
-import cv2
-
 def draw_lines(img, lines):
     for line in lines:
         x1, y1, x2, y2 = line
